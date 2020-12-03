@@ -1,0 +1,88 @@
+#sideNav {
+  background-color: black !important;
+}
+
+#main-container {
+  background-color: #101010;
+}
+
+@media (min-width: 992px) {
+  .vertical-alignment {
+    margin-top: 40vh;
+    transform: translateY(-50%);
+  }
+
+  .vertical-alignment h3 {
+    margin-bottom: 5vh;
+  }
+
+  .vertical-alignment img {
+    border: 3px solid #808080;
+  }
+
+  .portrait-gallery {
+    display: none;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .vertical-alignment h3,
+  .profile-image {
+    display: none;
+  }
+
+  .landscape-gallery {
+    display: none;
+  }
+}
+
+.nav-item-active {
+  color: #bd5d38 !important;
+}
+
+.navbar-nav li {
+  list-style-type: none;
+  text-align: left;
+}
+
+.nav-link-small {
+  text-decoration: none;
+  font-weight: 100 !important;
+  letter-spacing: 0rem !important;
+  text-transform: none !important;
+  padding: 0 !important;
+}
+
+.profile-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 2vh;
+}
+
+.col-image {
+  padding: 0;
+  background-size: cover;
+}
+
+.contact-icons {
+  font-size: 5em !important;
+}
+
+.disabled {
+  opacity: 20%;
+}
+
+svg {
+  color: #808080;
+}
+
+a svg:hover {
+  color: #bd5d38;
+}
+
+.col-image img {
+  width: 100%;
+  border: 2px solid #101010;
+}
