@@ -74,12 +74,12 @@
   opacity: 20%;
 }
 
-svg {
-  color: #808080;
+i {
+  color: #808080 !important;
 }
 
-a svg:hover {
-  color: #bd5d38;
+a i:hover {
+  color: #bd5d38 !important;
 }
 
 .col-image img {
