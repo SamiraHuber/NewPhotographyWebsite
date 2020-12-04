@@ -86,3 +86,14 @@ a svg:hover {
   width: 100%;
   border: 2px solid #101010;
 }
+
+#more_information {
+  display: none;
+}
+
+button {
+  background: transparent;
+  border: none;
+  color: #bd5d38;
+  margin-bottom: 1rem;
+}
