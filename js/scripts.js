@@ -1,8 +1,6 @@
 function toggleInfoContainer() {
     const el = document.getElementById("more_information");
     const button = document.getElementById("more_button");
-    console.log(el.style.display);
-    console.log(el.style.display == "block");
     if (el.style.display == "block") {
         el.style.display = "none";
         button.innerHTML = "&#8594; Mehr Informationen zum Angebot";
