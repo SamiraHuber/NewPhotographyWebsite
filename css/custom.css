@@ -87,7 +87,8 @@ a i:hover {
   border: 2px solid #101010;
 }
 
-#more_information {
+#more_information,
+#more_tipps {
   display: none;
 }
 
