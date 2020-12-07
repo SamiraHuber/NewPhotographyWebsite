@@ -27,14 +27,13 @@
                     <li class="nav-item"><a class="nav-link" href="./uebermich.html">&Uuml;ber mich</a></li>
                     <li class="nav-item"><a class="nav-link" href="./services.html">Services</a>
                         <ul>
-                            <li><a class="nav-link nav-link-small" href="./hochzeit.html">Hochzeitsfotografie</a></li>
-                            <li><a class="nav-link nav-link-small" href="./paarshooting.html">Paarfotografie</a></li>
-                            <li><a class="nav-link nav-link-small nav-item-active" href="./portraits.html">Portraitfotografie</a></li>
+                            <li><a class="nav-link nav-link-small" href="./hochzeit-fotografie">Hochzeitsfotografie</a></li>
+                            <li><a class="nav-link nav-link-small" href="./paar-fotografie">Paarfotografie</a></li>
+                            <li><a class="nav-link nav-link-small nav-item-active" href="./portrait-fotografie">Portraitfotografie</a></li>
                             <li><a class="nav-link nav-link-small" href="./deine-wuensche.html">Deine W&uuml;nsche</a></li>
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./blog.html">Blog</a></li>
                     <li class="nav-item"><a class="nav-link" href="./kontakt.html">Kontakt</a></li>
                 </ul>
             </div>
