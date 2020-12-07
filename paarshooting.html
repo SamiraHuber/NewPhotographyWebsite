@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="Du möchtest Bilder mit deinen Liebsten? Du willst romantische Bilder einfangen oder möchtest einen Gutschein für ein Photoshooting? Kontaktier mich!" />
-        <meta name="keywords" content="Paarshooting, Paarfotografie, Paar, romantische Bilder, Bilder mit deinem Liebsten, romantische Bilder in Lübeck, Fotos, Paarfotograf, Fotograf für Paare" />
         <meta name="author" content="Samira Huber" />
-        <title>Deine Paarfotografin in Lübeck und der Umgebung</title>
+        <meta name="robots" content="index, follow"> 
+        <meta name="keywords" content="Paarshooting Fotograf L&uuml;beck Karlsruhe" />
+        <title>Deine Fotografin f&uuml;r Paare in L&uuml;beck und Karlsruhe</title>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -51,16 +52,38 @@
                     <h4 class="subheading mb-5">
                         Deine Paarfotografin in Lübeck und Umgebung
                     </h4>
-                    <p class="lead mb-5">Du möchtest Bilder mit deinem Partner oder ein Photoshooting verschenken? ...</p>
-                    <ul>
-                        <li>Du möchtest ein Gutschein für ein Paarphotoshooting verschenken?</li>
-                        <li>Du möchtest mit deinem Partner(in) ein Paarphotoshooting machen?</li>
-                    </ul>
+                    <p class="lead mb-5">Ihr seit frisch verliebt oder schon lange miteinander verbunden? Euch kann so schnell nichts trennen, doch Selfies und Schnappsch&uuml;sse sind euch zu langweilig. Nat&uuml;rliche und professionelle Bilder sollen eure Liebe widerspiegeln - denn eure Geschichte ist es wert verewigt zu werden! Da ist ein Paarshooting einfach etwas Wunderbares. Ihr verbringt Zeit zu zweit. Ihr erlebt dabei etwas Außergew&ouml;hnliches, an das ihr noch lange zur&uuml;ck denken werdet UND ihr erhaltet am Ende wundersch&ouml;ne, authentische Bilder. </p>
+                    <button id="more_button" onclick="toggleInfoContainer()">&#8594; Mehr Informationen zum Angebot</button>
+                    <div id="more_information">
+                        <h3>Die wichtigsten Informationen</h3>
+                        <h4>Location</h4>
+                        <p>&Uuml;blicherweise treibe ich mich entweder in <b>L&uuml;beck</b> oder in <b>Karlsruhe</b> rum. An diesen beiden Orten ist es somit f&uuml;r mich am praktischsten. Wenn du gerne an anderen Locations deine Bilder haben m&ouml;chtest k&ouml;nnen wir aber gerne dar&uuml;ber reden und zusammen eine L&ouml;sung finden. Besonders in der Natur wirkt die Komposition f&uuml;r Paarfotos sehr sch&ouml;n. Daher gehe ich gerne mit euch raus und wir finden zusammen einige Pl&auml;tze im Gr&uuml;nen oder in der Innenstadt.</p>
+                        <h4>Nutzung der Bilder</h4>
+                        <p>Ihr f&uuml;rft die Bilder gerne f&uuml;r eure sozialen Netzwerke, wie LinkedIn, Facebook, Instagram,..., nutzen. Ich werde die Bilder nicht mit Wasserzeichen markieren, w&uuml;rde mich aber auf jeden Fall &uuml;ber die Nennung unter dem Bild freuen, wenn das m&ouml;glich ist!</p>
+                        <h4>Nachbearbeitung der Bilder</h4>
+                        <p>Je nach Anzahl der Orte und der Posen unterscheidet sich die Menge der Bilder. Ich werde dabei mit bestem Wissen und Gewissen die besten Bilder raussuchen und alle einzeln nachbearbeitet in Farbe, Ausschnitt und Belichtung. Gerne k&ouml;nnen wir die Bilder aber auch zusammen durchschauen! Die Bearbeitung mache ich in Adobe Lightroom - das etablierteste Bildbearbeitungsprogramm in der Fotografiebranche. Diese umfassenden Arbeiten sind im Preis inbegriffen. Ihr erhaltet die Bilder daraufhin digital.</p>
+                        <h4>Der Preis</h4>
+                        <p>Da ich euch das Photoshooting so entspannt wie m&ouml;glich machen m&ouml;chte, lege ich den Preis nicht basierend auf Stunden fest. Der Preis liegt somit f&uuml;r ein Paarshooting bei 150&euro;. Ihr bekommt dabei die besten Bilder - das k&ouml;nnen auch 10-20 sein - bearbeitet und digital ohne Wasserzeichen. Sendet mir gerne bei Interesse eine <a href="mailto:photography@samira-huber.de">Anfrage per Mail</a>.</p>
+                    </div>
+                <br />
+                    <button id="more_info_button" onclick="toggleTippsContainer()">&#8594; Zeig mir Tipps f&uuml;r das Photoshooting</button>
+                    <div id="more_tipps">
+                        <h3>Tipps und Tricks f&uuml;r die besten Fotos</h3>
+                        <p>Ihr m&ouml;chtet euch gerne auf das Shooting vorbereiten und wollt ein paar Tipps, wie man die besten Bilder bekommt oder ihr habt Fragen? Im Folgenden stehen einige etablierte Ideen und Anregungen. Ihr k&ouml;nnt mich aber auch gerne immer kontaktieren und fragen.</p>
+                        <h4>Wie k&ouml;nnen wir am Besten zu zwei posen?</h4>
+                        <p>Am Wichtigsten ist, dass ihr euch wohl f&uuml;hlt. Die authentischsten Bilder entstehen dann, wenn ihr ganz fr&ouml;hlich und entspannt das tut, was euch gerade in den Kopf kommt. Falls ihr doch mal nicht wissen solltet, was ihr tun wollt, dann helfe ich nat&uuml;rlich mit Tipps. Meine Favoriten sind, wenn ihr euch Stirn an Stirn in die Augen sieht und der Moment vor dem Kuss. Auch sitzend oder tanzend entstehen immer tolle Bilder! (Quelle: <a href="http://die-fotofabrik.com/paarfotografie/">Die Fotofabrik</a>)</p>
+                        <h4>Was f&uuml;r Requisiten k&ouml;nnen wir nutzen?</h4>
+                        <p>Requisiten k&ouml;nnen euch helfen die Atmosph&auml;re aufzulockern und die Bilder mit einem gewissen Etwas versehen. Was immer gut funktioniert sind Luftballons oder ein h&uuml;bscher Blumenstrau&szlig;. Etwas gr&ouml;&szlig;er, aber auch immer sch&ouml;n sind Musikinstrumente oder ein alter Koffer. Wenn ihr irgendwelche Ideen oder W&uuml;nsche habt, dann fragt am Besten nach! (Quelle: <a href="http://die-fotofabrik.com/paarfotografie/">Die Fotofabrik</a>)</p>
+                        <h4>Wie w&auml;hlen wir die Farbe unseres Outfits?</h4>
+                        <p>Haben wir uns f&uuml;r ein Shooting in der Natur, im Wald oder auf der Wiese entschieden, dann w&auml;hlt lieber neutrale, gedeckte Farben (wei&szlig;, grau, blau) oder Erdt&ouml;ne. Auch Pastellfarben k&ouml;nnen toll aussehen. Von bunter oder knalliger Kleidung ist jedoch in der Natur abzuraten. Haben wir die Stadt, einen Spielplatz oder eine Stra&szlig; als Location gew&auml;hlt, dann kannst du auch gerne kr&auml;ftigere Farben einsetzen. Ihr solltet jedoch zu bunte Outfits und stark gestreifte/karierte Oberteile vermeiden. (Quelle: <a href="https://fokussiert-fotografie.de/10-tipps-outfit-beim-fotoshooting/">Fokussiert Fotografie</a>)</p>
+                        <h4>Was ist die richtige Uhrzeit f&uuml;r das Shooting?</h4>
+                        <p>Euch ist vermutlich bewusst, dass die Dunkelheit nicht gerade optimal ist. Aber auch die Mitagszeit ist ziemlich unpraktisch. Die harte Sonne zu Mittag - besonders im Sommer, wenn die Sonne sehr hoch steht - wirft harte Schatten in eure Gesichter und f&uuml;hrt zu ents&auml;ttigten Farben und schwachen Kontrasten. Die perfekte Uhrzeit ist bei Sonnenscheint etwa eine Stunde vor Snnenuntergang. Wenn es dagegen bew&ouml;lkt ist, dann ist das Licht auch schon fr&uuml;her angenehm. (Quelle: <a href="https://www.diesernico.com/leitfaden-prchenfotos">Dieser Nico</a>)</p>
+                    </div>
                     <p style="height: 5vh;"></p>
                     <div class="landscape-gallery">
                         <div class="row">
                             <div class="col-1 col-image">
-                                <img src="./assets/portfolio/coupleFloor_1.webp" alt="Paarshooting - Foto eines Paares auf dem Boden - Lübeck Karlsruhe">
+                                <img src="./assets/portfolio/coupleFloor_1.webp" alt="Paarshooting - Foto eines Paares auf dem Boden - Lübeck Karlsruhe" titel="Paar Fotograf Karlsruhe L&uuml;beck">
                             </div>
                             <div class="col-1 col-image">
                                 <img src="./assets/portfolio/coupleFloor_2.webp" alt="Paarshooting - Foto eines Paares auf dem Boden - Lübeck Karlsruhe">
@@ -71,7 +94,7 @@
                             <div class="col-1 col-image"></div>
                             <div class="col-1 col-image"></div>
                             <div class="col-1 col-image">
-                                <img src="./assets/portfolio/coupleWall_1.webp" alt="Paarshooting - Foto eines Paares an eine Wand am Schloss gelehnt - Lübeck Karlsruhe">
+                                <img src="./assets/portfolio/coupleWall_1.webp" alt="Paarshooting - Foto eines Paares an eine Wand am Schloss gelehnt - Lübeck Karlsruhe" titel="Paar Fotograf Karlsruhe L&uuml;beck">
                             </div>
                             <div class="col-1 col-image">
                                 <img src="./assets/portfolio/coupleWall_2.webp" alt="Paarshooting - Foto eines Paares an eine Wand am Schloss gelehnt - Lübeck Karlsruhe">
@@ -106,7 +129,7 @@
                             <div class="col-1 col-image"></div>
                             <div class="col-1 col-image"></div>
                             <div class="col-1 col-image">
-                                <img src="./assets/portfolio/rathaus_1.webp" alt="Paarshooting - Paar steht vor Rathaus Lübeck Karlsruhe">
+                                <img src="./assets/portfolio/rathaus_1.webp" alt="Paarshooting - Paar steht vor Rathaus Lübeck Karlsruhe" titel="Paar Fotograf Karlsruhe L&uuml;beck">
                             </div>
                             <div class="col-1 col-image">
                                 <img src="./assets/portfolio/rathaus_2.webp" alt="Paarshooting - Paar steht vor Rathaus Lübeck Karlsruhe">
@@ -185,7 +208,7 @@
                             <div class="col-3 col-image"></div>
                             <div class="col-3 col-image"></div>
                             <div class="col-3 col-image">
-                                <img src="./assets/portfolio/coupleWall_1.webp" alt="Paarshooting - Foto eines Paares an eine Wand am Schloss gelehnt - Lübeck Karlsruhe">
+                                <img src="./assets/portfolio/coupleWall_1.webp" alt="Paarshooting - Foto eines Paares an eine Wand am Schloss gelehnt - Lübeck Karlsruhe" titel="Paar Fotograf Karlsruhe L&uuml;beck">
                             </div>
                             <div class="col-3 col-image">
                                 <img src="./assets/portfolio/coupleWall_2.webp" alt="Paarshooting - Foto eines Paares an eine Wand am Schloss gelehnt - Lübeck Karlsruhe">
@@ -214,7 +237,7 @@
                         <!--NEW IMAGE-->
                         <div class="row">
                             <div class="col-3 col-image">
-                                <img src="./assets/portfolio/rathaus_1.webp" alt="Paarshooting - Paar steht vor Rathaus Lübeck Karlsruhe">
+                                <img src="./assets/portfolio/rathaus_1.webp" alt="Paarshooting - Paar steht vor Rathaus Lübeck Karlsruhe" titel="Paar Fotograf Karlsruhe L&uuml;beck">
                             </div>
                             <div class="col-3 col-image">
                                 <img src="./assets/portfolio/rathaus_2.webp" alt="Paarshooting - Paar steht vor Rathaus Lübeck Karlsruhe">
