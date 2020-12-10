@@ -11,7 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@500;700&display=swap");
 
 :root {
   --blue: #007bff;
@@ -92,8 +92,10 @@ body {
 
 hr {
   box-sizing: content-box;
-  height: 0;
   overflow: visible;
+  height: 1px;
+  border: none;
+  background-color: #555555 !important;
 }
 
 h1,
@@ -459,13 +461,6 @@ h6,
   font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
-}
-
-hr {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 small,
