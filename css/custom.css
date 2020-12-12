@@ -88,7 +88,8 @@ a i:hover {
 }
 
 #more_information,
-#more_tipps {
+#more_tipps,
+#am_i_right_text {
   display: none;
 }
 
@@ -97,4 +98,15 @@ button {
   border: none;
   color: #bd5d38;
   margin-bottom: 1rem;
+}
+
+.image-aboutme {
+  float: left;
+  margin: 2em;
+}
+
+.image-aboutme img {
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
 }

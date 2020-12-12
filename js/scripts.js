@@ -24,3 +24,29 @@ function toggleTippsContainer() {
     }
 }
 
+function toggleAboutMeContainer() {
+    const el = document.getElementById("more_information");
+    const button = document.getElementById("more_button");
+    if (el.style.display == "block") {
+        el.style.display = "none";
+        button.innerHTML = "&#8594; Mehr &uuml;ber mich";
+    }
+    else {
+        el.style.display = "block";
+        button.innerHTML = "&#8593; Weniger &uuml;ber mich";
+    }
+}
+
+function toggleAmIRight() {
+    const el = document.getElementById("am_i_right_text");
+    const button = document.getElementById("am_i_right");
+    if (el.style.display == "block") {
+        el.style.display = "none";
+        button.innerHTML = "&#8594; Bin ich die richtige f&uuml;r euch?";
+    }
+    else {
+        el.style.display = "block";
+        button.innerHTML = "&#8593; Bin ich die richtige f&uuml;r euch?";
+    }
+}
+
