@@ -110,3 +110,7 @@ button {
   height: 20vw;
   object-fit: cover;
 }
+
+.impressum-item {
+  color: #555 !important;
+}
