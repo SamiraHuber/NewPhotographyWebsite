@@ -84,7 +84,8 @@ a i:hover {
 
 .col-image img {
   width: 100%;
-  border: 2px solid #101010;
+  outline: 0.2em solid black;
+  outline-offset: -0.1em;
 }
 
 #more_information,
@@ -113,4 +114,23 @@ button {
 
 .impressum-item {
   color: #555 !important;
+}
+
+.col-description {
+  text-align: center;
+  line-height: 1;
+  text-transform: uppercase;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-description a {
+  margin: 2vh;
+  font-weight: bold;
+}
+
+.col-description a:hover {
+  text-decoration: none;
 }

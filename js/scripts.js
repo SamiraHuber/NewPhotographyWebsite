@@ -50,3 +50,16 @@ function toggleAmIRight() {
     }
 }
 
+function toggleQuestionContainer() {
+    const el = document.getElementById("more_information");
+    const button = document.getElementById("more_button");
+    if (el.style.display == "block") {
+        el.style.display = "none";
+        button.innerHTML = "&#8594; Mehr Hintergrundfakten zum Shooting";
+    }
+    else {
+        el.style.display = "block";
+        button.innerHTML = "&#8593; Weniger Hintergrundfakten zum Shooting";
+    }
+}
+
