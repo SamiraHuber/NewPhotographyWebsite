@@ -84,7 +84,7 @@ a i:hover {
 
 .col-image img {
   width: 100%;
-  outline: 0.2em solid black;
+  outline: 0.2em solid #101010;
   outline-offset: -0.1em;
 }
 
@@ -95,10 +95,16 @@ a i:hover {
 }
 
 button {
-  background: transparent;
-  border: none;
-  color: #bd5d38;
-  margin-bottom: 1rem;
+  background: #bd5d38;
+  border: #bd5d38;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.centered-button {
+  text-align: center;
+  margin: 2em;
 }
 
 .image-aboutme {
